@@ -28,8 +28,8 @@ public class JoinCommand extends JavaPlugin implements Listener {
         world = Bukkit.getWorld(getConfig().getString("world"));
         command = getConfig().getString("Command on Join");
         getServer().getPluginManager().registerEvents(this, this);
-        getLogger().info(ChatColor.WHITE + "CL-JoinCommand is enabling...");
-        getLogger().info(ChatColor.GREEN + "CL-JoinCommand has successfully enabled!");
+        getLogger().info(ChatColor.WHITE + "CL-JoinCommandExecutor is enabling...");
+        getLogger().info(ChatColor.GREEN + "CL-JoinCommandExecutor has successfully enabled!");
         getLogger().info(ChatColor.DARK_RED + "Created by CrispyLipz");
     }
 
@@ -59,8 +59,8 @@ public class JoinCommand extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-        getLogger().info(ChatColor.RED + "CL-JoinCommand is now being disabled...");
-        getLogger().info(ChatColor.RED + "CL-JoinCommand has successfully been disabled!");
+        getLogger().info(ChatColor.RED + "CL-JoinCommandExecutor is now being disabled...");
+        getLogger().info(ChatColor.RED + "CL-JoinCommandExecutor has successfully been disabled!");
     }
 
 }
