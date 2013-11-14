@@ -1,0 +1,11 @@
+#### In the selection "world" please input the world you would like the command executed on player join! ####
+
+world: 'PutWorldHere'
+
+#### In the selection "Command on Join" please input the command that you want executed, without the (/)! Ex. spawn ####
+
+Command on Join: PutCommandHere
+
+#### End of Config! ####
+
+###$Enjoy! - CrispyLipz####
